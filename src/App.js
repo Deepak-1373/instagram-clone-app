@@ -93,7 +93,7 @@ function App() {
 				<div style={modalStyle} className={classes.paper}>
 					<form className="app__signup">
 						<center>
-							<img className="app_headerImage" src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png"  />
+							<img className="app_headerImage" alt="" src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png"  />
 						</center>
 						
 						<Input
@@ -126,7 +126,7 @@ function App() {
 				<div style={modalStyle} className={classes.paper}>
 					<form className="app__signup">
 						<center>
-							<img className="app_headerImage" src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png"  />
+							<img className="app_headerImage" alt="" src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png"  />
 						</center>
 						<Input 
 							placeholder="email"
@@ -151,7 +151,7 @@ function App() {
 			</Modal>
 
 			<div className="app__header">	
-				<img className="app__headerImage" src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png" 
+				<img className="app__headerImage" alt="" src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png" 
 				alt=""
 				/>
 					{user ? (
