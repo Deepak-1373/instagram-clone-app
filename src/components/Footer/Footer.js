@@ -6,9 +6,29 @@ function Footer() {
   return (
     <div className="footer">
       <div className="social__media__icons">
-        <ImLinkedin />
-        <ImGithub />
-        <ImTwitter />
+        <a
+          className="footer__linkedin"
+          href="https://linkedin.com/in/deepak-1373"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <ImLinkedin />
+        </a>
+        <a
+          href="https://github.com/Deepak-1373"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <ImGithub />
+        </a>
+        <a
+          className="footer__twitter"
+          href="https://twitter.com/dkamat001"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <ImTwitter />
+        </a>
       </div>
 
       <div className="footer__text">

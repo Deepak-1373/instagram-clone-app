@@ -10,6 +10,19 @@
   padding: 20px;
 }
 
+.social__media__icons {
+  width: 25%;
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__linkedin,
+.footer__twitter {
+  color: rgb(25, 118, 210);
+}
+
 .footer__text {
   width: 100%;
   display: flex;
