@@ -17,7 +17,6 @@ function ImageUpload({ username }) {
 
   const handleUpload = (e) => {
     e.preventDefault();
-    console.log(caption, image, progress);
     const uploadTask = storage.ref(`images/${image.name}`).put(image);
     uploadTask.on(
       "state_changed",
@@ -47,10 +46,10 @@ function ImageUpload({ username }) {
               imageUrl: url,
               username: username,
             });
+            setProgress(0);
+            setCaption("");
+            setImage(null);
           });
-        setProgress(0);
-        setCaption("");
-        setImage(null);
       }
     );
   };
@@ -67,6 +66,7 @@ function ImageUpload({ username }) {
           type="text"
           placeholder="Enter a caption here..."
           onChange={(event) => setCaption(event.target.value)}
+          value={caption}
           required="required"
         ></input>
         <input type="file" onChange={handleChange}></input>
