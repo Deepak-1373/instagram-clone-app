@@ -3,8 +3,9 @@ import { db, auth } from "./firebase";
 import Modal from "@material-ui/core/Modal";
 import { makeStyles } from "@material-ui/core/styles";
 import { Button, Input } from "@material-ui/core";
-import InstagramEmbed from "react-instagram-embed";
+// import InstagramEmbed from "react-instagram-embed";
 import Post from "./components/Post/Post";
+import ImageUpload from "./components/ImageUpload/ImageUpload";
 import Footer from "./components/Footer/Footer";
 import "./App.css";
 
@@ -196,7 +197,7 @@ function App() {
           ))}
         </div>
 
-        <div className="app__postsRight">
+        {/* <div className="app__postsRight">
           <InstagramEmbed
             url="https://www.instagram.com/p/Cdz0Y9dsIrC/"
             maxWidth={320}
@@ -209,8 +210,10 @@ function App() {
             onAfterRender={() => {}}
             onFailure={() => {}}
           />
-        </div>
+        </div> */}
       </div>
+
+      {user?.displayName && <ImageUpload username={user.displayName} />}
 
       <Footer />
     </div>

@@ -5,7 +5,6 @@ import { db } from "../../firebase";
 import firebase from "firebase";
 
 function Post({ postId, username, user, caption, imageUrl }) {
-  console.log(postId, username, user, caption, imageUrl);
   const [comments, setComments] = useState([]);
   const [comment, setComment] = useState("");
 
