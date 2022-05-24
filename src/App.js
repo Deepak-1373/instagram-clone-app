@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from "react";
-import "./App.css";
-import Post from "./components/Post/Post";
 import { db, auth } from "./firebase";
 import Modal from "@material-ui/core/Modal";
 import { makeStyles } from "@material-ui/core/styles";
 import { Button, Input } from "@material-ui/core";
-import ImageUpload from "./components/ImageUpload/ImageUpload";
 import InstagramEmbed from "react-instagram-embed";
+import Post from "./components/Post/Post";
+import Footer from "./components/Footer/Footer";
+import "./App.css";
 
 function getModalStyle() {
   const top = 50;
@@ -212,15 +212,9 @@ function App() {
         </div>
       </div>
 
-      {user?.displayName ? (
-        <ImageUpload username={user.displayName} />
-      ) : (
-        <h3 className="app__upload">Login to upload</h3>
-      )}
+      <Footer />
     </div>
   );
 }
 
 export default App;
-
-// 	imageUrl:"https://www.freecodecamp.org/news/content/images/size/w2000/2020/02/Ekran-Resmi-2019-11-18-18.08.13.png"
