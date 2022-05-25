@@ -32,8 +32,18 @@ function Footer() {
       </div>
 
       <div className="footer__text">
-        <h3>Made by Deepak Kamat🚀</h3>
-        <h3>Connect with me 🧑‍💻</h3>
+        <h3>
+          Made by Deepak Kamat
+          <span role="img" aria-label="Rocket">
+            🚀
+          </span>
+        </h3>
+        <h3>
+          Connect with me{" "}
+          <span role="img" aria-label="Developer">
+            🧑‍💻
+          </span>
+        </h3>
       </div>
     </div>
   );
