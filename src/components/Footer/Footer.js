@@ -5,6 +5,12 @@ import "./Footer.css";
 function Footer() {
   return (
     <div className="footer">
+      <h3>
+        Made by Deepak Kamat
+        <span role="img" aria-label="Rocket">
+          🚀
+        </span>
+      </h3>
       <div className="social__media__icons">
         <a
           className="footer__linkedin"
@@ -31,20 +37,12 @@ function Footer() {
         </a>
       </div>
 
-      <div className="footer__text">
-        <h3>
-          Made by Deepak Kamat
-          <span role="img" aria-label="Rocket">
-            🚀
-          </span>
-        </h3>
-        <h3>
-          Connect with me{" "}
-          <span role="img" aria-label="Developer">
-            🧑‍💻
-          </span>
-        </h3>
-      </div>
+      <h3>
+        Connect with me
+        <span role="img" aria-label="Developer">
+          🧑‍💻
+        </span>
+      </h3>
     </div>
   );
 }

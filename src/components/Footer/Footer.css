@@ -1,8 +1,7 @@
 .footer {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   position: sticky;
   bottom: 0;
   background-color: white;
@@ -11,7 +10,7 @@
 }
 
 .social__media__icons {
-  width: 25%;
+  width: 15%;
   font-size: 1.3rem;
   display: flex;
   align-items: center;
@@ -21,11 +20,4 @@
 .footer__linkedin,
 .footer__twitter {
   color: rgb(25, 118, 210);
-}
-
-.footer__text {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 }
