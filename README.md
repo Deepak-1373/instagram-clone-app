@@ -1,7 +1,6 @@
 ## Preview
 
-https://user-images.githubusercontent.com/61752151/170063325-3f26a362-ef6a-4b95-a64f-8f49be438b3f.mp4
-
+https://user-images.githubusercontent.com/61752151/173396483-b7d38ba6-026b-4fda-b874-5fe32c517a83.mp4
 
 ## Table of Contents
 
