@@ -50,10 +50,9 @@ npm start
 ```
 
 ## Screenshots
-![image](https://user-images.githubusercontent.com/61752151/170064413-5f8b1261-1910-4894-8d9a-3e8a710016e0.png)
-![image](https://user-images.githubusercontent.com/61752151/170064501-72536025-6306-47e4-b313-b3286958ab58.png)
-![image](https://user-images.githubusercontent.com/61752151/170064557-72bf6ea7-d1e6-4b04-a6f4-b0ac0c2ddc09.png)
-![image](https://user-images.githubusercontent.com/61752151/170064678-04abda55-b6c9-4751-a41e-3f66c3239e3b.png)
+![image](https://user-images.githubusercontent.com/61752151/173495516-96a3cdd9-3fd9-4d0a-bfaa-1b7f8d66afe3.png)
+![image](https://user-images.githubusercontent.com/61752151/173495572-ace3b85c-e3ea-49b9-a1c1-8e2a284a4518.png)
+![image](https://user-images.githubusercontent.com/61752151/173495656-473f0854-d1c4-45cf-834c-37439614b61c.png)
 
 
 ## 👨‍💻 Connect with me 
