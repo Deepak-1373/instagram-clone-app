@@ -2,10 +2,12 @@
   --primary-color: #121212;
   --secondary-color: #fafafa9c;
   --background-color: #fafafa;
+  --hover-color: #f3f4f6;
 }
 
 .dark {
   --primary-color: #fafafa;
   --background-color: #121212;
   --secondary-color: #27272a;
+  --hover-color: rgba(232, 234, 237, 0.08);
 }

@@ -29,7 +29,7 @@ img {
 }
 
 .app__headerImage {
-  width: 12%;
+  width: 6rem;
   object-fit: contain;
 }
 
@@ -46,6 +46,11 @@ img {
   border: none;
   color: var(--primary-color);
   background-color: transparent;
+}
+
+.theme-btn:hover {
+  background-color: var(--hover-color);
+  border-radius: 5px;
 }
 
 .app__posts {
