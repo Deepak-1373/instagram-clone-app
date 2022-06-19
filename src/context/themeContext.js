@@ -1,8 +1,8 @@
-const { createContext, useState, useEffect, useContext } = require("react");
+import React, { createContext, useState, useEffect, useContext } from "react";
 
 const themeContext = createContext({ theme: "light" });
 
-const themeProvider = ({ children }) => {
+const ThemeProvider = ({ children }) => {
   const [theme, setTheme] = useState("light");
   const changeTheme = () => {
     setTheme(theme === "light" ? "dark" : "light");
@@ -17,11 +17,11 @@ const themeProvider = ({ children }) => {
   }, [theme]);
 
   return (
-    <themeContext.provider value={{ theme, changeTheme }}>
+    <themeContext.Provider value={{ theme, changeTheme }}>
       {children}
-    </themeContext.provider>
+    </themeContext.Provider>
   );
 };
 
 const useTheme = () => useContext(themeContext);
-export { useTheme, themeProvider };
+export { useTheme, ThemeProvider };
