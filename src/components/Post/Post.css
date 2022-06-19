@@ -43,8 +43,9 @@
 .post__button {
   flex: 0;
   border: none;
-  color: #6082a3;
+  color: var(--primary-color);
   background-color: transparent;
+  cursor: pointer;
   border-top: 1px solid lightgray;
 }
 
