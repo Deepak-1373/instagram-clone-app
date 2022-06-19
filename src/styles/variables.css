@@ -1,4 +1,11 @@
 :root {
-  --primary-color: #fafafa;
+  --primary-color: #121212;
   --secondary-color: #fafafa9c;
+  --background-color: #fafafa;
+}
+
+.dark {
+  --primary-color: #fafafa;
+  --background-color: #121212;
+  --secondary-color: #27272a;
 }

@@ -6,8 +6,10 @@ import { Button, Input } from "@material-ui/core";
 import Post from "./components/Post/Post";
 import ImageUpload from "./components/ImageUpload/ImageUpload";
 import Footer from "./components/Footer/Footer";
-import "./styles/App.css";
 import { useTheme } from "./context/themeContext";
+import InstagramDark from "./assets/instagram-dark.png";
+import InstagramLight from "./assets/instagram-light.png";
+import "./styles/App.css";
 
 function getModalStyle() {
   const top = 50;
@@ -170,18 +172,30 @@ function App() {
       </Modal>
 
       <div className="app__header">
-        <img
-          className="app__headerImage"
-          alt="Instagram Logo"
-          src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png"
-        />
+        {theme === "light" ? (
+          <img
+            className="app__headerImage"
+            alt="Instagram Logo"
+            src={InstagramLight}
+          />
+        ) : (
+          <img
+            className="app__headerImage"
+            alt="Instagram Logo"
+            src={InstagramDark}
+          />
+        )}
         <div className="app__theme">
           {user ? (
             <Button onClick={() => auth.signOut()}>Logout</Button>
           ) : (
             <div>
-              <Button onClick={() => setOpenSignIn(true)}>Sign In</Button>
-              <Button onClick={() => setOpen(true)}>Sign Up</Button>
+              <Button className="btn" onClick={() => setOpenSignIn(true)}>
+                Sign In
+              </Button>
+              <Button className="btn" onClick={() => setOpen(true)}>
+                Sign Up
+              </Button>
             </div>
           )}
           <button className="theme-btn" onClick={changeTheme}>
