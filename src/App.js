@@ -6,7 +6,7 @@ import { Button, Input } from "@material-ui/core";
 import Post from "./components/Post/Post";
 import ImageUpload from "./components/ImageUpload/ImageUpload";
 import Footer from "./components/Footer/Footer";
-import "./App.css";
+import "./styles/App.css";
 
 function getModalStyle() {
   const top = 50;

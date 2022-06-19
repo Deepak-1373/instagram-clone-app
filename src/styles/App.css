@@ -1,16 +1,18 @@
+@import "./variables.css";
+
 * {
   margin: 0;
 }
 
 .app {
-  background-color: #fafafa;
+  background-color: var(--primary-color);
 }
 
 .app__header {
   position: sticky;
   top: 0;
   z-index: 1;
-  background-color: #fafafa9c;
+  background-color: var(--secondary-color);
   object-fit: contain;
   padding: 20px;
   border-bottom: 1px solid lightgray;
